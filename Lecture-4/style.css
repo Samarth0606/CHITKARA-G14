@@ -1,0 +1,68 @@
+h1{
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+
+/* id selec */
+#sartaaj{
+    text-transform: uppercase;
+    background-color: antiquewhite;
+
+}
+
+/* class sel */
+.tanya{
+    background-color: aquamarine;
+    font-size: 25px;
+}
+
+/* universal */
+/* *{
+    border: 3px dotted black;
+} */
+
+body{
+    border: 5px solid green;
+}
+
+input[type="text"]{
+    background-color: aquamarine;
+}
+
+input[type="password"]{
+    background-color: rgb(255, 127, 236);
+}
+input{
+    border: 5px solid green;
+}
+
+
+a[href="https://google.com"]{
+    background-color: yellowgreen;
+}
+
+a[href^="https:"]{
+    font-size: 40px;
+}
+
+
+a[href$=".in"]{
+    /* font-size: 40px; */
+    background-color: aqua;
+}
+
+
+a[href*="//"]{
+    /* font-size: 40px; */
+    background-color: rgb(60, 255, 0);
+}
+
+
+section article div span{
+    font-size: 40px;
+}
+
+
+section > article{
+    background-color: blue;
+}
