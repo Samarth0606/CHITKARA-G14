@@ -1,0 +1,103 @@
+/* div h1+p{
+    background-color: red;
+} */
+
+ /* h1 ~ p{
+    background-color: rgb(4, 255, 0);
+} */
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+} */
+
+/* div:hover{
+    border-radius: 50%;
+    background-color: blue;
+}
+
+input:hover{
+    background-color: cadetblue;
+}
+
+input:focus{
+    background-color: rgb(111, 160, 95);
+}
+
+input:active{
+    background-color: rgb(160, 95, 140);
+} */
+/* a:visited{
+    color: rgb(228, 235, 18);
+} */
+
+/* ul li:first-child{
+    background-color: rgb(44, 217, 217);
+}
+
+ul li:last-child{
+    background-color: rgb(44, 93, 217);
+}
+
+li:nth-of-type(4){
+    background-color: rebeccapurple;
+} */
+
+
+/* li:nth-of-type(even){
+    background-color: rebeccapurple;
+}
+li:nth-of-type(odd){
+    background-color: rgb(153, 80, 51);
+} */
+
+
+/* li:nth-of-type(3n+4){
+    background-color: rgb(153, 80, 51);
+} */
+
+/* p::first-line{
+    font-size: 40px;
+} */
+
+/* p::first-letter{
+    font-size: 50px;
+}
+
+p::after{
+
+    content:" i am a new content" ;
+}
+
+p::before{
+   
+    content:"\2685" ;
+} */
+
+/* ul>li{
+    color: red;
+    border: 2px solid black;
+} */
+
+input{
+    /* background-color: rgb(255, 0, 0); */
+    /* background-color: rgba(255, 0, 0,.5); */
+    background-color: #88ff3383;
+}
+
+#ayush{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+
+#jadugar{
+    width: 75vw;
+    height: 75vh;
+    background-color: rgb(200, 255, 0);
+
+}
+
+/* li{
+    font-size: 2rem;
+} */
