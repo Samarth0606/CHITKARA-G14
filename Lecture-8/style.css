@@ -1,0 +1,21 @@
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: blue;
+
+} */
+
+div{
+    width: 90vw;
+    height: 70vh;
+    background-color: aquamarine;
+    border: 2px solid green;
+    background-image:url('https://images.unsplash.com/photo-1658732122414-6cbccdc6f883?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyM3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 30% 40%;
+    background-position: right;
+}
