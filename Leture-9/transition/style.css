@@ -1,0 +1,42 @@
+/* div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+div:hover{
+    border-radius: 50%;
+    background-color: aqua;
+    transition-duration: 3000ms;
+    transition-property: border-radius , background-color;
+
+} */
+
+.child{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    transition-duration: 4s;
+}
+
+.parent:hover .child{
+    width: 100vw;
+}
+
+.child-1{
+    transition-timing-function: linear;
+    background-color: antiquewhite;
+}
+.child-2{
+    transition-timing-function: ease-in;
+    background-color: rgb(215, 250, 231);
+}
+.child-3{
+    transition-timing-function: ease-out;
+    background-color: rgb(215, 229, 250);
+}
+.child-4{
+    transition-timing-function: ease-in-out;
+    background-color: rgb(250, 215, 216);
+}
+
