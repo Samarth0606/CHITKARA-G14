@@ -1,0 +1,45 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+div:hover{
+    animation-name: kuchbhi;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    /* animation-direction: reverse; */
+    animation-fill-mode: backwards;
+    /* background-color: bisque;
+    height: 800px; */
+}
+
+@keyframes kuchbhi {
+    from{
+        background-color: rgb(255, 85, 0);
+        height: 100px;
+    }
+    to{
+        height: 700px;
+        background-color: burlywood;
+    }
+    
+}
+
+@keyframes blah {
+    0%{
+
+    }
+    10%{
+
+    }
+    30%{
+        
+    }
+
+    100%{
+
+    }
+    
+}
